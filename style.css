@@ -59,12 +59,34 @@ li a{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 30px;
+  width: 500px;
+  font-size: 20px;
+}
+
+.button{
+  background-color: #f2f2f2;
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 0;
+  border: 0;
 }
 
 .searchbutton{
-  width: 300px;
+  display: inline-block;
+  width: 200px;
   position: relative;
-  text-align: center;
+
+}
+
+.lucky{
+  display: inline-block;
+  width: 200px;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
